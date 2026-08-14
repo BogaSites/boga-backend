@@ -41,7 +41,7 @@ app.post('/api/verify-token', async (req, res) => {
             contractaddress: address,
             sourceCode: JSON.stringify(standardInput),
             codeformat: 'solidity-standard-json-input',
-            contractname: 'BogaERC20Token.sol:BogaERC20Token',
+            contractname: 'project/contracts/BogaERC20Token.sol:BogaERC20Token',
             compilerversion: 'v0.8.28+commit.7891f434',
             optimizationUsed: '1',
             runs: '1',
